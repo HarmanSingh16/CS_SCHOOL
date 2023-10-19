@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WordWise
+comment1.params=
+comment1.target=WordWise()
+comment2.params=
+comment2.target=void\ readsent()
+comment3.params=w
+comment3.target=int\ freq_vowel(java.lang.String)
+comment4.params=
+comment4.target=void\ arrange()
+comment5.params=
+comment5.target=void\ main()
+numComments=6
