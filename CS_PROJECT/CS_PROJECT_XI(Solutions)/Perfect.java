@@ -6,19 +6,20 @@ class Perfect{
         num = nn;
     }
     
-    int sum =0;
-    int f = 1;
-    int sum_of_factors(int i){
-        if(i%f == 0)
-            sum = sum + f;
-        f++;
-        if(f<i)
-            sum_of_factors(i);
-        return sum;
+    
+    int sum_of_factors(int i, int j){
+        if(j<i){
+            if(i%j == 0)
+                return j + sum_of_factors(i, ++j);
+            else if(i%j !=0){
+                return 0 + sum_of_factors(i,++j);
+            }
+        }
+        return 0;
     }
     
     void check(){
-        String msg = (num == sum_of_factors(num)) ? "Perfect number" : "Not a perfect number";
+        String msg = (num == sum_of_factors(num,1)) ? "Perfect number" : "Not a perfect number";
         System.out.println(msg);
     }
     

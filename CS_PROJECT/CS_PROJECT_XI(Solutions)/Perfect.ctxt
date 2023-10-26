@@ -2,8 +2,8 @@
 comment0.target=Perfect
 comment1.params=nn
 comment1.target=Perfect(int)
-comment2.params=i
-comment2.target=int\ sum_of_factors(int)
+comment2.params=i\ j
+comment2.target=int\ sum_of_factors(int,\ int)
 comment3.params=
 comment3.target=void\ check()
 comment4.params=

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Counter
+comment1.params=
+comment1.target=void\ acceptGuestList()
+comment2.params=
+comment2.target=void\ incCount()
+comment3.params=
+comment3.target=int\ giveCount()
+comment4.params=
+comment4.target=void\ displayCount()
+comment5.params=
+comment5.target=void\ main()
+numComments=6
