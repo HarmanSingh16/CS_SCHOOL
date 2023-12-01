@@ -7,8 +7,7 @@ class automorphic{
         int n = as.nextInt();
         
         String s = n + "";
-        String sq = Math.pow(n,2) + "";
-        
+        String sq = (int)Math.pow(n,2) + "";
         String msg = sq.endsWith(s) ? "Automorphic" : "Not automorphic";
         System.out.println(msg);
     }

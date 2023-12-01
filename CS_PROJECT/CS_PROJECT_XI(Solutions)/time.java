@@ -5,7 +5,7 @@ class time{
         String nums[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "twenty one", "twenty two", "twenty three", "twenty four", "twenty five", "twenty six", "twenty seven", "twenty eight", "twenty nine", "thirty"};
         System.out.println("\nTime in words:");
         if(m == 0)
-            System.out.println(nums[m] + " O' clock");
+            System.out.println(nums[h] + " O' clock");
         else if(m == 1)
             System.out.println("one minute past " + nums[(h%12)]);
         else if(m == 59)
@@ -25,7 +25,7 @@ class time{
     void main(){
         Scanner as = new Scanner(System.in);
 
-        System.out.println("Enter hours:");
+        System.out.println("\nEnter hours:");
         int hh = as.nextInt();
         System.out.println("Enter minutes:");
         int mm = as.nextInt();

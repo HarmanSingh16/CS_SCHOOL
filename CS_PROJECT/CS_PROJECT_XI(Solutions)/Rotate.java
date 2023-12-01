@@ -63,7 +63,7 @@ class Rotate{
     
     static void main(){
         Scanner as = new Scanner(System.in);
-        System.out.println("Enter size of array");
+        System.out.println("Enter size of array:");
         int rr = as.nextInt();
         int cc = as.nextInt();
         

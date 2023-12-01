@@ -43,7 +43,7 @@ class ArrayMax{
     
     static void main(){
         Scanner as = new Scanner(System.in);
-        System.out.println("Enter order of matrix");
+        System.out.println("Enter order of matrix:");
         ArrayMax obj = new ArrayMax(as.nextInt());
         
         obj.readarray();

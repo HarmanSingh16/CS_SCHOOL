@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=vampire
+comment1.params=n
+comment1.target=boolean\ isPair(int)
+comment2.params=m\ n
+comment2.target=boolean\ check0(int,\ int)
+comment3.params=n
+comment3.target=void\ main(int)
+comment4.params=m\ n
+comment4.target=int[]\ permute(char,\ char)
+numComments=5

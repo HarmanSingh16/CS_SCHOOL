@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Permutation
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=str\ l\ r
+comment2.target=void\ permute(java.lang.String,\ int,\ int)
+comment2.text=\ \r\n\ permutation\ function\ \r\n\ @param\ str\ string\ to\ calculate\ permutation\ for\ \r\n\ @param\ l\ starting\ index\ \r\n\ @param\ r\ end\ index\ \r\n
+comment3.params=a\ i\ j
+comment3.target=java.lang.String\ swap(java.lang.String,\ int,\ int)
+comment3.text=\ \r\n\ Swap\ Characters\ at\ position\ \r\n\ @param\ a\ string\ value\ \r\n\ @param\ i\ position\ 1\ \r\n\ @param\ j\ position\ 2\ \r\n\ @return\ swapped\ string\ \r\n
+numComments=4

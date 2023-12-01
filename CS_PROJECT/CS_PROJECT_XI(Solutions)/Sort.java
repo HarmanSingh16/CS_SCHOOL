@@ -7,7 +7,7 @@ class Sort{
         len = n;
         arr = new int[n];
         
-        System.out.println("Enter numbers");
+        System.out.println("Enter numbers:");
         for(int i = 0; i<n; i++){
             arr[i] = as.nextInt();
         }
@@ -27,6 +27,7 @@ class Sort{
     }
     
     void display(){
+        System.out.println("Sorted Array:");
         for(int i = 0; i<len; i++){
             System.out.print(arr[i] + " ,");
         }
@@ -35,7 +36,7 @@ class Sort{
     void main(){
         Scanner as = new Scanner(System.in);
         Sort obj = new Sort();
-        System.out.println("Enter size of array");
+        System.out.println("Enter size of array:");
         
         obj.read(as.nextInt());
         obj.arrange();

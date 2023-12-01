@@ -3,6 +3,7 @@ class disarium{
     void main(){
         Scanner as = new Scanner(System.in);
         
+        System.out.println("Enter a number:");
         int n = as.nextInt();
         String s = n + "";
         

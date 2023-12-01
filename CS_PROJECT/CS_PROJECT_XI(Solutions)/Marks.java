@@ -12,10 +12,10 @@ class Marks{
 
     void accept(){
         Scanner as = new Scanner(System.in);
-        System.out.println("Enter name");
+        System.out.println("Enter name:");
         name = as.nextLine();
 
-        System.out.println("Enter marks in 5 subject");
+        System.out.println("Enter marks in 5 subject:");
         m1 = as.nextInt();
         m2 = as.nextInt();
         m3 = as.nextInt();
